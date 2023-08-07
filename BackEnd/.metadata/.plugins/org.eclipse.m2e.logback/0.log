@@ -1,0 +1,15 @@
+2023-08-07 15:40:06,379 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-08-07 15:42:52,387 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HouseKeeper_backend:0.0.1-SNAPSHOT @ G:\RLL\BackEnd\HouseKeeper_backend\pom.xml.
+2023-08-07 15:42:55,970 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HouseKeeper_backend/src/main/java
+2023-08-07 15:42:55,971 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HouseKeeper_backend/src/main/resources
+2023-08-07 15:42:56,002 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HouseKeeper_backend/src/main/resources
+2023-08-07 15:42:56,028 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HouseKeeper_backend/src/test/java
+2023-08-07 15:43:00,915 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2023-08-07 15:43:00,931 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-08-07 15:43:01,516 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:HouseKeeper_backend:0.0.1-SNAPSHOT @ G:\RLL\BackEnd\HouseKeeper_backend\pom.xml.
+2023-08-07 15:43:02,943 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HouseKeeper_backend/src/main/java
+2023-08-07 15:43:02,944 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HouseKeeper_backend/src/main/resources
+2023-08-07 15:43:02,945 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HouseKeeper_backend/src/main/resources
+2023-08-07 15:43:02,947 [Worker-20: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HouseKeeper_backend/src/test/java
+2023-08-07 15:43:04,290 [Worker-20: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2023-08-07 15:43:05,541 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
