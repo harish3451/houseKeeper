@@ -1,15 +1,44 @@
-<div class="container-fluid w-100" style="background: linear-gradient(to right,brown 50%,white 50%) ;height: 100vh;">
-    
+<style>
+    .form-control{
+        border:none;
+        border-bottom: 2px solid rgb(73, 76, 255);
+        border-radius: 0;
+    }
+    .form-control:focus{
+        border-width: 3px;
+        border-color: green;
+    }
+</style>
+
+<div class="container-fluid w-100" style="background: linear-gradient(to right,rgb(73, 76, 255) 20%,white 20%) ;height: 100vh;" *ngIf="!loggedIn"> 
     <div class="row">
-
-        <div class="col-6">
-            <h1>HouseKeeper</h1>
+        <div class="col-3 text-white" style="margin-top: 10vh;">
+            <h1 class="m-3">HouseKeeper</h1>
+            <p class="m-3">Admin login</p>
         </div>
-        <div class="col-6">
-            <h1>Sign</h1>
-            <form >
-
-            </form>
+        <div class="col-9" style="color: rgb(73, 76, 255);">
+            <div class="container" style="width: 50%;margin-top: 10vh;">
+                <h1 style="text-align: center;">Log in</h1>
+                <form  style="margin-top: 10vh;" (ngSubmit)="logIn()" #logInForm="ngForm">
+                    <div class="form-group"> 
+                        <label for="empId" class="from-label">Employee Id</label>
+                        <input type="text" class="form-control" [(ngModel)]="empId" name="empId">
+                    </div> 
+                    <div class="form-group"> 
+                        <label for="password" class="from-label">Password</label>
+                        <input type="password" class="form-control" name="password" id="password" [(ngModel)]="password">
+                    </div> 
+                    <div *ngIf="invalidCredentials">
+                         <p style="color: red;">Employee Id or password is wrong</p>
+                    </div>
+                    <div class="text-center mt-5">
+                        <input type="submit" value="  Continue  " class="btn btn-info" style=" border-radius: 10%;"> 
+                        <p><span style="color: rgb(141, 143, 255);">or student login</span></p>    
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
+
+<router-outlet *ngIf="loggedIn" ></router-outlet>
